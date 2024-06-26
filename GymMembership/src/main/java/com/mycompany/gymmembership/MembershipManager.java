@@ -1,8 +1,9 @@
 package com.mycompany.gymmembership;
+
 import java.util.*;
 
-public class MembershipManager {
-    
+// Manages the gym membership system
+class MembershipManager {
     private List<MembershipPlan> membershipPlans;
     private List<AdditionalFeature> additionalFeatures;
 
@@ -17,6 +18,14 @@ public class MembershipManager {
         additionalFeatures = new ArrayList<>();
         additionalFeatures.add(new AdditionalFeature("Personal Trainer Sessions", 30.0));
         additionalFeatures.add(new AdditionalFeature("Group Classes", 20.0));
+    }
+
+    public List<MembershipPlan> getMembershipPlans() {
+        return membershipPlans;
+    }
+
+    public List<AdditionalFeature> getAdditionalFeatures() {
+        return additionalFeatures;
     }
 
     public void displayMembershipPlans() {
@@ -90,13 +99,12 @@ public class MembershipManager {
     public void displayConfirmation(int planIndex, List<Integer> featureIndices, double totalCost) {
         MembershipPlan selectedPlan = membershipPlans.get(planIndex);
         System.out.println("\nMembership Plan: " + selectedPlan);
-       
+
         System.out.println("Selected Additional Features:");
         for (int index : featureIndices) {
             System.out.println("- " + additionalFeatures.get(index));
         }
-       
+
         System.out.println("Total Cost: $" + totalCost);
     }
-
 }
