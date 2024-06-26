@@ -66,5 +66,6 @@ public class GymMembershipApp {
         }
 
         scanner.close();
+        //comment
     }
 }
