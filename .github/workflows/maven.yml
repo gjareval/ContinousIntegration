@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file GymMembership/pom.xml  
+      run: mvn -B package --file GymMembership/pom.xml 
       
     - name: Analyzing code with Junit
       run: mvn test
