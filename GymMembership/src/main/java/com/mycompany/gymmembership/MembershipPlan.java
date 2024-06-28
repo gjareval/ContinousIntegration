@@ -8,7 +8,7 @@ public class MembershipPlan {
     private String benefits;
     private double baseCost;
     private boolean available;
-
+    //comentario de prueba
     public MembershipPlan(String name, String benefits, double baseCost) {
         this.name = name;
         this.benefits = benefits;
