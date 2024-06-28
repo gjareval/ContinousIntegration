@@ -4,7 +4,7 @@ package com.mycompany.gymmembership;
 public class AdditionalFeature {
     private String name;
     private double cost;
-
+    //comentario de prueba
     public AdditionalFeature(String name, double cost) {
         this.name = name;
         this.cost = cost;

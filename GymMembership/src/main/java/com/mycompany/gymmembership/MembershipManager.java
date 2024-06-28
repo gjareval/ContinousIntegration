@@ -6,7 +6,7 @@ import java.util.*;
 public class MembershipManager {
     private List<MembershipPlan> membershipPlans;
     private List<AdditionalFeature> additionalFeatures;
-
+    //comentario de prueba
     public MembershipManager() {
         // Initialize membership plans
         membershipPlans = new ArrayList<>();
