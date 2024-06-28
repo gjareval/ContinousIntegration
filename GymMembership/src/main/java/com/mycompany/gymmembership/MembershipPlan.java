@@ -3,7 +3,7 @@ package com.mycompany.gymmembership;
 import java.util.*;
 
 // Represents a membership plan with its name, benefits, cost, and availability
-class MembershipPlan {
+public class MembershipPlan {
     private String name;
     private String benefits;
     private double baseCost;

@@ -3,7 +3,7 @@ package com.mycompany.gymmembership;
 import java.util.*;
 
 // Manages the gym membership system
-class MembershipManager {
+public class MembershipManager {
     private List<MembershipPlan> membershipPlans;
     private List<AdditionalFeature> additionalFeatures;
 

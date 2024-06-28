@@ -1,7 +1,7 @@
 package com.mycompany.gymmembership;
 
 // Represents an additional feature that can be added to a membership plan
-class AdditionalFeature {
+public class AdditionalFeature {
     private String name;
     private double cost;
 
